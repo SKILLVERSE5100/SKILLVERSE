@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkillVerse - Empowering India's Skilled Workforce</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #f8f9fa;
+      color: #222;
+    }
+    header {
+      background-color: #0d6efd;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      color: #0d6efd;
+      margin-bottom: 1rem;
+    }
+    .services, .employees {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .service-card, .employee-card {
+      background-color: #fff;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+    .service-card:hover, .employee-card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background-color: #0d6efd;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SkillVerse</h1>
+    <p>Empowering Bharat with Tech-Skilled Workforce</p>
+  </header>
+
+  <section>
+    <h2 class="section-title">Our Mission</h2>
+    <p>SkillVerse is India’s first AI-ready labor and skill-tech ecosystem, empowering youth and workers with future-ready skills, verified jobs, and digital tools—starting from Basti, built for the world.</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">What We Do</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Skilled Labor Supply</h3>
+        <p>Verified, trained labor for factories, events, homes, and businesses across India.</p>
+      </div>
+      <div class="service-card">
+        <h3>Micro Training</h3>
+        <p>Quick training modules on discipline, safety, soft skills, and AI tools for better work performance.</p>
+      </div>
+      <div class="service-card">
+        <h3>Smart Matching Platform</h3>
+        <p>Employers can easily find and manage skilled workers through our smart, AI-powered dashboard.</p>
+      </div>
+      <div class="service-card">
+        <h3>Business Solutions</h3>
+        <p>Hiring packages, workforce analytics, and subscription services for growing businesses.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Employee Details</h2>
+    <div class="employees">
+      <div class="employee-card">
+        <h3>Name: Rajesh Kumar</h3>
+        <p>Contact: +91 9876543210</p>
+        <p>ID: SKV1001</p>
+        <p>Address: Village Mahadev, Basti, UP</p>
+        <p>Visitor Status: Permanent Staff</p>
+      </div>
+      <div class="employee-card">
+        <h3>Name: Anjali Verma</h3>
+        <p>Contact: +91 9123456780</p>
+        <p>ID: SKV1002</p>
+        <p>Address: Near Ghanta Ghar, Basti, UP</p>
+        <p>Visitor Status: On-site Trainee</p>
+      </div>
+      <!-- Add more employee cards here as needed -->
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 SkillVerse. All rights reserved.</p>
+  </footer>
+</body>
+</html>
